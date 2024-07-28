@@ -1,0 +1,49 @@
+{
+    "rooms": [
+        {
+            "roomName": "roomName",
+            "noOfPersons": 5,
+            "area": "Area1",
+            "stars": 3,
+            "noOfReviews": 15,
+            "price": 50,
+            "roomImage": "/usr/bin/images/roomName.png"
+        },
+        {
+            "roomName": "Luxury Suite",
+            "noOfPersons": 2,
+            "area": "Area2",
+            "stars": 5,
+            "noOfReviews": 45,
+            "price": 80,
+            "roomImage": "/usr/bin/images/luxury_suite.png"
+        },
+        {
+            "roomName": "Economy Double",
+            "noOfPersons": 2,
+            "area": "Area3",
+            "stars": 2,
+            "noOfReviews": 5,
+            "price": 75,
+            "roomImage": "/usr/bin/images/economy_double.png"
+        },
+        {
+            "roomName": "Family Room",
+            "noOfPersons": 4,
+            "area": "Area4",
+            "stars": 4,
+            "noOfReviews": 25,
+            "price": 70,
+            "roomImage": "/usr/bin/images/family_room.png"
+        },
+        {
+            "roomName": "Presidential Suite",
+            "noOfPersons": 6,
+            "area": "Area5",
+            "stars": 5,
+            "noOfReviews": 50,
+            "price": 150,
+            "roomImage": "/usr/bin/images/presidential_suite.png"
+        }
+    ]
+}

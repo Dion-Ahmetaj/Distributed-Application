@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textViewRoomName"
+        android:layout_width="130dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="135dp"
+        android:layout_marginTop="48dp"
+        android:paddingBottom="16dp"
+        android:text="@string/room_name"
+        android:textAppearance="?attr/textAppearanceHeadline6"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/editTextNumberOfRooms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter Time Period(DD/MM/YYYY-DD/MM/YYY)" />
+
+    <Button
+        android:id="@+id/buttonBook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="20dp"
+        android:text="Book" />
+
+    <Button
+        android:id="@+id/ReturnToListbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="20dp"
+        android:text="Return" />
+
+</LinearLayout>
